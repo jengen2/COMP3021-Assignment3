@@ -99,8 +99,6 @@ def connect_ftp():
     ftp.login('anonymous', 'anonymous@')  # Anonymous FTP login
     return ftp
 
-def nintendo_64():
-    return "N64 is the most overrated console there is!!"
 
 if __name__ == "__main__":
     # Testing various vulnerable functions
