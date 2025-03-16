@@ -99,6 +99,7 @@ def connect_ftp():
     ftp.login('anonymous', 'anonymous@')  # Anonymous FTP login
     return ftp
 
+
 if __name__ == "__main__":
     # Testing various vulnerable functions
     user_data = b'\x80\x04\x95\x10\x00\x00\x00\x00\x00\x00\x00\x8c\x08builtins\x94\x8c\x07__dict__\x94\x93\x94.'
